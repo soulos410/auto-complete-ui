@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    font-family: "Poppins";
+}
+
+.input {
+    display: block;
+    width: 500px;
+    height: 20px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.headen {
+    display: none;
+}
+
+.container-wrapper {
+    height: 580px;
+    width: 500px;
+    margin: 10px auto 0;
+    overflow-y: auto;
+    border: 1px solid #13083b;
+}
+
+.elements-container {
+    list-style: circle;
+}
+
+.single-element:hover {
+    color: #ee0303;
+    list-style: square;
+    cursor: pointer;
+}
